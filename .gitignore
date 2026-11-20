@@ -1,0 +1,32 @@
+# Keep the repo to what's useful: sources, the working edit scripts, the final video.
+# Earlier experimental versions and the older no-voiceover final
+dev-deepawali/
+dev-deepawali-comic/
+dev-deepawali-images/
+Dev Deepawali - Final.mp4
+
+# Rendered intermediates (rebuilt by the scripts)
+_edit/ovl/
+_edit/ovl2/
+_edit/seg/
+_edit/_pv/
+_edit/base.mov
+_edit/base.mp4
+_edit/base2.mp4
+_edit/*.wav
+_edit/*.txt
+
+# Old v1 pipeline and backups
+_edit/build.py
+_edit/events.py
+_edit/overlay.html
+_edit/overlay.js
+_edit/preview.py
+_edit/render_final.sh
+_edit/timeline.js
+_edit/timeline.json
+_edit/meta.json
+_edit/*_v3.py
+_edit/*_v3.js
+_edit/vo_map_v1.json
+_edit/rebuild_v3.sh
